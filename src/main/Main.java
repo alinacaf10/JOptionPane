@@ -8,6 +8,7 @@ public class Main {
 
     JFrame frame=new JFrame("OptionPane");
     JOptionPane.showMessageDialog(frame,"Hello");
+    JOptionPane.showMessageDialog(frame,"Message","Warning",JOptionPane.WARNING_MESSAGE);
 
     frame.setSize(400,400);
     frame.setLayout(null);
